@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.all{
+    border: 2px solid red;
+    width: 40%;
+}
+.screen{
+    position: absolute;
+    width: 38%;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: center;
+    display: absolute;
+    align-items: center;
+    text-align: center;
+}
